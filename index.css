@@ -186,6 +186,10 @@ span.exchange-img {
     margin: 10px 0;
 }
 
+.project--title a {
+    text-decoration: none;
+    color: var(--brand);
+}
 
 .project--phrase {
     margin-top: 12px;
