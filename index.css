@@ -109,6 +109,16 @@ html {
     background-size: cover;
 }
 
+.information .github-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/icons/github.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .contain__projects {
     width: 87%;
     min-width: 290px;
@@ -221,10 +231,11 @@ span.crowdfunding-img {
 
 .about-me {
     width: 70%;
+    min-width: 160px;
     max-width: 730px;
     height: auto;
     display: flex;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .about-me--myImage {
@@ -244,13 +255,54 @@ span.crowdfunding-img {
     text-align: left;
     font-size: 1.8rem;
     font-weight: bold;
+    margin: 0;
 }
 
 .about-me .presentation--name {
     width: 100%;
-    margin: 16px;
+    margin: 16px 0;
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 3rem;
     color: var(--brand);
+}
+
+.about-me .presentation--description {
+    width: 100%;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: var(--dark);
+    margin: 0;
+}
+
+.about-me .presentation--phrase {
+    font-size: 1.8rem;
+    color: var(--brand-500);
+}
+
+.experience {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.experience--title {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin: 14px auto;
+}
+
+.experience--lista {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.experience--lista li {
+    font-size: 1.4rem;
+    padding: 2px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--brand-500);
+    border-radius: 2px;
 }
