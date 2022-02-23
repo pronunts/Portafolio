@@ -74,8 +74,44 @@ html {
     margin: 0;
 }
 
+.information .social-medias {
+    width: 100%;
+    height: auto;
+}
+
+.information .linkedin-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/icons/linkedin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.information .twitter-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/icons/Social.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.information .linkedin-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/icons/linkedin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .contain__projects {
-    width: 70%;
+    width: 87%;
+    min-width: 290px;
     max-width: 730px;
     margin: 30px auto;
 }
@@ -94,6 +130,7 @@ html {
 
 .projects {
     width: 100%;
+    min-width: 290px;
     max-width: 730px;
     display: flex;
     flex-direction: row;
@@ -113,9 +150,9 @@ html {
 
 .project {
     width: 45%;
+    min-width: 140px;
     height: auto;
     border-radius: 2px;
-    overflow: hidden;
 }
 
 
@@ -200,11 +237,20 @@ span.crowdfunding-img {
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-content: center;
 }
 
-.about-me .presentation-greetings {
+.about-me .presentation--greetings {
+    text-align: left;
     font-size: 1.8rem;
+    font-weight: bold;
 }
 
-.about-me .presentation {}
+.about-me .presentation--name {
+    width: 100%;
+    margin: 16px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 3rem;
+    color: var(--brand);
+}
