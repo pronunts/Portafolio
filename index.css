@@ -310,3 +310,50 @@ span.crowdfunding-img {
     border: 1px solid var(--brand-500);
     border-radius: 2px;
 }
+
+.contact {
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact .media {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.media .whatsapp-icon {
+    display: inline-block;
+    width: 45px;
+    height: 40px;
+    background-image: url(assets/icons/whatsapp-svgrepo-com\ \(1\).svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    vertical-align: bottom;
+}
+
+
+
+.media .number {
+    width: 100%;
+    font-size: 1.8rem;
+    line-height: 1.6rem;
+    color: var(--dark);
+    padding-left: 10px;
+}
+
+.media .mail {
+    width: 100%;
+    margin-top: 20px;
+    justify-self: center;
+    font-size: 1.8rem;
+    line-height: 1.6rem;
+    color: var(--dark);
+}
