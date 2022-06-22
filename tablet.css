@@ -1,0 +1,19 @@
+.about-me {
+    flex-direction: column;
+    align-items: center;
+    min-width: 290px;
+}
+
+.about-me--myImage {
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.about-me .presentation {
+    width: 70%;
+    text-align: justify;
+}
+
+.nav__element-list {
+    justify-content: center;
+}
